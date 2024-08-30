@@ -114,12 +114,15 @@ body {
 }
 
 .input-content {
-    padding: 1rem 1rem;  
+    padding: 1rem 1.5rem;
     outline: none;
     border: 1px solid var(--grayish-blue);
     border-radius: 10px;
-    font-weight: bold;
     margin: 23px 0px 0px;
+}
+
+.input-content::placeholder {
+    font-weight: bold;
 }
 
 .text-error {
